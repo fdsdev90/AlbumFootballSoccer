@@ -9,7 +9,8 @@ public class FootballPlayerModel
     private String surname;
 
     private Date birthDate;
-    boolean stillPlaying;
+    private boolean stillPlaying;
+    private int goals;
 
     public String getName()
     {
@@ -51,5 +52,14 @@ public class FootballPlayerModel
         this.stillPlaying = stillPlaying;
     }
 
+    public int getGoals()
+    {
+        return goals;
+    }
+
+    public void setGoals(int goals)
+    {
+        this.goals = goals;
+    }
 
 }
