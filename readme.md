@@ -1,5 +1,3 @@
-Album football soccer
+Album football soccer [JDBC branch]
 
-what is it?
-
-it's a program that retrieves info of famous football players.
+In this branch the backend is implemented using JDBC implementation, of course there will be security threaths such as sql injection.
