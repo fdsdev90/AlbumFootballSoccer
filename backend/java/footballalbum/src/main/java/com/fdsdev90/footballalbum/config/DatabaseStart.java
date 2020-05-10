@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 
 public class DatabaseStart
 {
+    private Connection connection;
 
     static
     {
@@ -17,10 +18,19 @@ public class DatabaseStart
         }
         catch(Exception e)
         {
-
+            System.out.println("[ERROR] Can not connect to the db");
         }
 
     }
 
+    public void setConnection(Connection connection)
+    {
+        this.connection = connection;
+    }
+
+    public Connection getConnection()
+    {
+        return connection;
+    }
 
 }

@@ -7,8 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class DatabaseConfig
 {
 
-    @Value("${database.server}")
-    private String databaseServer;
+
     @Value("${database.url}")
     private String jdbcURL;
     @Value("${database.username}")
@@ -16,16 +15,6 @@ public class DatabaseConfig
     @Value("${database.password}")
     private String password;
 
-
-    public void setDatabaseServer(String databaseServer)
-    {
-        this.databaseServer = databaseServer;
-    }
-
-    public String getDatabaseServer()
-    {
-        return databaseServer;
-    }
 
     public void setJdbcURL(String jdbcURL)
     {
