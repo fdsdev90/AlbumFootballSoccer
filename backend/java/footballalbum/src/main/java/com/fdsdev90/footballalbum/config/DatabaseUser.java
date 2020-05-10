@@ -26,12 +26,16 @@ public class DatabaseUser implements FootballPlayerDAOInt
     }
 
     @Override
-    public FootballPlayerModel getPlayerInfoGoals(int id) {
+    public FootballPlayerModel getPlayerInfoGoals(int id)
+    {
+        DatabaseStart databaseStart = new DatabaseStart();
         return null;
     }
 
     @Override
-    public FootballPlayerModel getAverageGoals(int id) {
+    public FootballPlayerModel getAverageGoals(int id)
+    {
+        DatabaseStart databaseStart = new DatabaseStart();
         return null;
     }
 

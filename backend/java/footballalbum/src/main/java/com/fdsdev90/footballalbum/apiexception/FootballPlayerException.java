@@ -1,6 +1,6 @@
 package com.fdsdev90.footballalbum.apiexception;
 
-public class FootballPlayerException extends Exception
+public class FootballPlayerException extends RuntimeException
 {
    private final String message;
    private final String error;
